@@ -1,8 +1,8 @@
 # Subnet | Jack Nelson, 2019
 
-This is a subnet calculator I created as my first project working with C.
+This is a subnet calculator, made as my first project working with C.
 It will take an IPv4 address as input, along with a subnet mask expressed in CIDR form.
-From there it will print information about the network, and give you an opportunity to create subnets.
+It will then print information about the network, and give you an opportunity to create subnets.
 
 ## Usage overview
 1. At the prompt, enter your IPv4 address.
@@ -14,7 +14,7 @@ From there it will print information about the network, and give you an opportun
 
 ## Usage example
 ```
-b1337@LAPTOP-HRLBD1LQ:~/programming/exercises/subnet$ ./subnet
+$ ./subnet
 Enter IPv4 address now: 172.16.8.155
 Verifying: 172.16.8.155... Address verified!
 Enter subnet mask in CIDR notation now: 24

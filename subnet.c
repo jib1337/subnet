@@ -143,9 +143,8 @@ int main() {
 		printf("(Class A)\n");
 	}
 
-	// Pack bits of the IP address and mask into integers
+	// Pack bits of the IP address into an integer
 	addressOctets = (octetArray[0] << 24) | (octetArray[1] << 16) | (octetArray[2] << 8) | (octetArray[3]);
-	//bitMask = (0xFFFFFFFF << (32 - CIDR)) & 0xFFFFFFFF;
 
 	// Call the subnetinfo function for the network
 	printSubnetInfo(&addressOctets, &CIDR, &subnetBits);
