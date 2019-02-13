@@ -42,10 +42,10 @@ int ipVerify(char* ipAddress, unsigned char* octetArray) {
 	}
 
 	if (periodCount != 4) {
-		return(0);
+		return 0;
 	} else {
 
-		return(1);
+		return 1;
 	}
 }
 
@@ -98,7 +98,7 @@ int main() {
 	u_int32_t currentSubnet;
 	int i;
 
-	// Get the addess
+	// Get the address
 	while (1) {
 		printf("Enter IPv4 address now: ");
 		fgets(ipAddress, 17, stdin);
