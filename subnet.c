@@ -26,7 +26,7 @@ int ipVerify(char* ipAddress, unsigned char* octetArray) {
 			}
 		}
 
-		// If the right amount of digits have been entered, confirm octal as validated and add to array
+		// If the right amount of digits have been entered, confirm octet as validated and add to array
 		if (strlen(token) > 0 && strlen(token) < 4 && j == strlen(token)
 				&& atoi(token) < 256 && atoi(token) >= 0) {
 			periodCount++;
