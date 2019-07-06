@@ -1,5 +1,5 @@
 # Subnet Calculator | Jack Nelson
-# Build the binard
+# Build the binary
 
 CC = gcc
 CFLAGS = -Wall -lm
