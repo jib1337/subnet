@@ -1,4 +1,4 @@
-# Subnet | Jack Nelson, 2019
+# Subnet
 
 This is a subnet calculator, made as my first project working with C.
 It will take an IPv4 address as input, along with a subnet mask expressed in CIDR form.
